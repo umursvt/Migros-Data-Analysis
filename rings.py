@@ -1,5 +1,5 @@
 import pandas as pd
-# excel MAĞAZA GROSS REVENUE
+# excel read
 df_gross=pd.read_excel('Data.xlsx',sheet_name="SHEET NAME", dtype=({'Code':'Int64'}))
 
 
@@ -11,7 +11,7 @@ totalPrice =df_gross['COLUMN NAME']
 dictionary = dict(zip(storeCode,totalPrice))
 
 
-# # Excel Sayfa1 page
+# # Excel read
 dfsayfa = pd.read_excel('DATA2.xlsx',sheet_name='SHEET NAME2')
 
 
